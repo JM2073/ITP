@@ -2,7 +2,6 @@
 
 public class CustomMethod
 {
-    
     public static string GetName()
     {
         Console.Write("Please enter your name: ");
@@ -36,7 +35,6 @@ public class CustomMethod
 
         return result;
     }
-
     public static double ParseStringToDouble(string? inputText)
     {
         var loop = true;
@@ -54,7 +52,6 @@ public class CustomMethod
                 loop = false;
             }
         }
-
         return result;
     }
 }
