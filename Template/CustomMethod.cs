@@ -14,7 +14,7 @@ public class CustomMethod
 
         return name;
     }
-
+ 
     public static int ParseStringToInt(string? inputText)
     {
         var loop = true;
