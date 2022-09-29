@@ -1,0 +1,15 @@
+D:\UNI\Introduction to programming\Solutions\ITP\Template\bin\Debug\net6.0\Template.exe
+D:\UNI\Introduction to programming\Solutions\ITP\Template\bin\Debug\net6.0\Template.deps.json
+D:\UNI\Introduction to programming\Solutions\ITP\Template\bin\Debug\net6.0\Template.runtimeconfig.json
+D:\UNI\Introduction to programming\Solutions\ITP\Template\bin\Debug\net6.0\Template.dll
+D:\UNI\Introduction to programming\Solutions\ITP\Template\bin\Debug\net6.0\Template.pdb
+D:\UNI\Introduction to programming\Solutions\ITP\Template\obj\Debug\net6.0\Template.csproj.AssemblyReference.cache
+D:\UNI\Introduction to programming\Solutions\ITP\Template\obj\Debug\net6.0\Template.GeneratedMSBuildEditorConfig.editorconfig
+D:\UNI\Introduction to programming\Solutions\ITP\Template\obj\Debug\net6.0\Template.AssemblyInfoInputs.cache
+D:\UNI\Introduction to programming\Solutions\ITP\Template\obj\Debug\net6.0\Template.AssemblyInfo.cs
+D:\UNI\Introduction to programming\Solutions\ITP\Template\obj\Debug\net6.0\Template.csproj.CoreCompileInputs.cache
+D:\UNI\Introduction to programming\Solutions\ITP\Template\obj\Debug\net6.0\Template.dll
+D:\UNI\Introduction to programming\Solutions\ITP\Template\obj\Debug\net6.0\refint\Template.dll
+D:\UNI\Introduction to programming\Solutions\ITP\Template\obj\Debug\net6.0\Template.pdb
+D:\UNI\Introduction to programming\Solutions\ITP\Template\obj\Debug\net6.0\Template.genruntimeconfig.cache
+D:\UNI\Introduction to programming\Solutions\ITP\Template\obj\Debug\net6.0\ref\Template.dll
