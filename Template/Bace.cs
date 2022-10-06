@@ -1,4 +1,7 @@
-﻿    using static Template.CustomMethod;
+﻿namespace Template
+{
+    
+using static CustomMethod;
     public class Bace
     {
         private static class User
@@ -86,3 +89,5 @@
             }
         }
     }
+
+}
