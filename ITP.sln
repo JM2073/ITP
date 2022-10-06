@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template\Templa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week 2", "Week 2\Week 2.csproj", "{C444E134-7C9F-4BDC-85C5-6485D0754816}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week 3", "Week 3\Week 3.csproj", "{D2667E85-BE90-478E-AC03-9ED3A272510D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{C444E134-7C9F-4BDC-85C5-6485D0754816}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C444E134-7C9F-4BDC-85C5-6485D0754816}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C444E134-7C9F-4BDC-85C5-6485D0754816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2667E85-BE90-478E-AC03-9ED3A272510D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2667E85-BE90-478E-AC03-9ED3A272510D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2667E85-BE90-478E-AC03-9ED3A272510D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2667E85-BE90-478E-AC03-9ED3A272510D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

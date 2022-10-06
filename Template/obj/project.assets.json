@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Reavu\\.nuget\\packages\\": {}
+    "C:\\Users\\reavu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "J:\\UNI\\Introduction to programming\\Solutions\\ITP\\Template\\Template.csproj",
+      "projectUniqueName": "C:\\Users\\reavu\\Documents\\RiderSolutions\\ITP\\Template\\Template.csproj",
       "projectName": "Template",
-      "projectPath": "J:\\UNI\\Introduction to programming\\Solutions\\ITP\\Template\\Template.csproj",
-      "packagesPath": "C:\\Users\\Reavu\\.nuget\\packages\\",
-      "outputPath": "J:\\UNI\\Introduction to programming\\Solutions\\ITP\\Template\\obj\\",
+      "projectPath": "C:\\Users\\reavu\\Documents\\RiderSolutions\\ITP\\Template\\Template.csproj",
+      "packagesPath": "C:\\Users\\reavu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\reavu\\Documents\\RiderSolutions\\ITP\\Template\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Reavu\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\reavu\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
