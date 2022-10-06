@@ -4,10 +4,10 @@ public class PasswordThing
     public static void Main()
     {
         Console.WriteLine("please enter your password:");
-        var password = Console.ReadLine();
+        var password = Console.ReadLine()!;
 
         Console.WriteLine("pleas reenter your password:");
-        var passwordCheck = Console.ReadLine();
+        var passwordCheck = Console.ReadLine()!;
 
         if (password.Equals(passwordCheck))
         {

@@ -10,7 +10,7 @@
             if (age >= 18)
             {
                 Console.WriteLine("have you got your ID mate? yes or no");
-                var ageId = Console.ReadLine();
+                var ageId = Console.ReadLine()!;
                 if (ageId.Equals("yes"))
                 {
                     Console.WriteLine("lets buy you a beer!");
