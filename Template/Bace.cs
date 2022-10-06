@@ -9,8 +9,8 @@
         public static void Main()
         {
             var showMenu = true;
-            Console.WriteLine("welcome to the class " + User.Name);
-
+            Console.WriteLine("welcome to the class " + User.Name)
+            
             while (showMenu)
             {
                 showMenu = MainMenu();
