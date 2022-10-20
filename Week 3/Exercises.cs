@@ -43,6 +43,64 @@ public class Exercises
 {
     public static void StartExercises()
     {
+        Dice();
+        // FooTask();
+        // SetTasks();
+
+        Console.WriteLine("END APP");
+        Console.ReadKey();
+    }
+
+    private static void Dice()
+    {
+        var ran = new Random();
+        int total = 0, diceOne = 0, diceTwo = 0, diceThree = 0, diceFore = 0, diceFive = 0, diceSix = 0;
+        Console.WriteLine("lets roll some dice.");
+        Console.Write("how many dice would you like to roll?");
+        var rollCount = Convert.ToInt32(Console.ReadLine());
+        for (var i = 0; i < rollCount; i++)
+        {
+            var roll = ran.Next(1,7);
+            Console.WriteLine($"you rolled a {roll}");  
+            total += roll;
+            switch (roll)
+            {
+                case 1:
+                    diceOne++;
+                    break;
+                case 2:
+                    diceTwo++;
+                    break;
+                case 3:
+                    diceThree++;
+                    break;
+                case 4:
+                    diceFore++;
+                    break;
+                case 5:
+                    diceFive++;
+                    break;
+                case 6:
+                    diceSix++;
+                    break;
+                default:
+                    throw new Exception();
+                    break;
+            }
+        }
+
+        Console.WriteLine();
+        Console.WriteLine($"you rolled a one {diceOne} times");
+        Console.WriteLine($"you rolled a two {diceTwo} times");
+        Console.WriteLine($"you rolled a three {diceThree} times");
+        Console.WriteLine($"you rolled a fore {diceFore} times");
+        Console.WriteLine($"you rolled a five {diceFive} times");
+        Console.WriteLine($"you rolled a six {diceSix} times\n");
+        Console.WriteLine($"the total of the dice rolls are {total}");
+    }
+
+    private static void SetTasks()
+    {
         Console.WriteLine("Task one!\n");
 
         Console.WriteLine("please enter two values:");
@@ -60,7 +118,80 @@ public class Exercises
         Console.WriteLine("if the original first value was bigger it would of been swapped with the second value.\n\n");
 
         Console.WriteLine("Task two!\n");
+    }
 
-        Console.ReadKey();
+    private static void FooTask()
+    {
+        var rand = new Random();
+        bool choiceOp;
+        int firstNum = 0, secondNum = 0;
+
+        Console.WriteLine("lets do some math\n\n");
+
+        Console.WriteLine("would you like to use user input or randome numbers");
+        Console.WriteLine("1.) user input");
+        Console.WriteLine("2.) randome numbers");
+        choiceOp = true;
+        do
+        {
+            var input = Console.ReadLine();
+            if (input == "1")
+            {
+                Console.Write("Please enter a number: ");
+                firstNum = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Please another number: ");
+                secondNum = Convert.ToInt32(Console.ReadLine());
+                choiceOp = false;
+            }
+            else if (input == "2")
+            {
+                firstNum = rand.Next(0, 100);
+                secondNum = rand.Next(0, 100);
+                choiceOp = false;
+            }
+            else
+            {
+                Console.WriteLine("please select an option.");
+            }
+        } while (choiceOp);
+
+        Console.WriteLine($"the first number is {firstNum}\nthe second number is {secondNum}");
+
+        Console.WriteLine("please choice witch opration you would like to preform.");
+        Console.WriteLine("your choises are between + * / - %");
+        var result = string.Empty;
+        choiceOp = true;
+        do
+        {
+            var function = Convert.ToChar(Console.ReadLine());
+            switch (function)
+            {
+                case '*':
+                    result = (firstNum * secondNum).ToString();
+                    choiceOp = false;
+                    break;
+                case '+':
+                    result = (firstNum + secondNum).ToString();
+                    choiceOp = false;
+                    break;
+                case '-':
+                    result = (firstNum - secondNum).ToString();
+                    choiceOp = false;
+                    break;
+                case '/':
+                    result = (firstNum / secondNum).ToString();
+                    choiceOp = false;
+                    break;
+                case '%':
+                    result = (firstNum % secondNum).ToString();
+                    choiceOp = false;
+                    break;
+                default:
+                    Console.Write("please use the corresponding simble ");
+                    break;
+            }
+        } while (choiceOp);
+
+        Console.WriteLine($"the result of your operation is: {result}");
     }
 }
