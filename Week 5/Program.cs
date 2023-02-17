@@ -71,7 +71,7 @@ List<int> NumbersIn(int value)
 {
     if (value == 0) return new List<int>();
 
-    var numbers = NumbersIn(value / 10);
+    List<int> numbers = NumbersIn(value / 10);
 
     numbers.Add(value % 10);
 
@@ -88,7 +88,7 @@ string Letterize(int number)
         number *= -1;
     }
 
-    var numlist = NumbersIn(number);
+    List<int> numlist = NumbersIn(number);
 
     numText += isNegtive ? "minus " : " ";
 
@@ -113,13 +113,15 @@ string Letterize(int number)
     return numText;
 }
 
-Console.WriteLine("please enter a number between -999 and 999");
-int choice = Convert.ToInt32(Console.ReadLine());
 
-if (choice > 999 || choice < -999)
-    Console.WriteLine($"too {(choice > 999 ? "large" : "small")}");
-else
-    Console.WriteLine(Letterize(choice));
+    Console.WriteLine("please enter a number between -999 and 999");
+    int choice = Convert.ToInt32(Console.ReadLine());
+
+    if (choice > 999 || choice < -999)
+        Console.WriteLine($"too {(choice > 999 ? "large" : "small")}");
+    else
+        Console.WriteLine(Letterize(choice));
+
 
 //
 // int number;
